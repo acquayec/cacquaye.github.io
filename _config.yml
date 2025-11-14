@@ -135,7 +135,6 @@ google_site_verification : "SVyQ73ySBMoqqBw7qvmtD3rhxDOQ6pXeNXVaGl_7u4c"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
 # Reading Files
 include:
   - .htaccess
