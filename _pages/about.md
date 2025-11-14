@@ -19,4 +19,4 @@ Research Interests
 - Machine Learning
 - Computational Social Science
 
-[CV available here](/files/cv.pdf)
+
