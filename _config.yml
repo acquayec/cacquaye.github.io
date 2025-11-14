@@ -7,44 +7,36 @@
 # server process.
 
 # Basic Site Settings
-# Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air"
 title                    : "Christabel Acquaye - PhD Student in NLP and AI"
 title_separator          : "-"
 name                     : &name "Christabel Acquaye"
-description              : &description "PhD Student | Commonsense Reasoning | Fairness & Bias in AI"
+description              : &description "Christabel Acquaye is a PhD student at University of Maryland studying Natural Language Processing, Commonsense Reasoning, and Fairness in AI."
 url                      : https://acquayec.github.io
 baseurl                  : "/cacquaye.github.io"
 repository               : "acquayec/cacquaye.github.io"
 
-# Site Author
+# Site Author - The following control what appear as part of the author content on the side bar.
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.png" 
   name             : "Christabel Acquaye"
   pronouns         : "she/her"
   bio              : "PhD Student at University of Maryland | NLP | Commonsense Reasoning | Fairness & Bias in AI"
   location         : "College Park, Maryland"
   uri              : # URL
-  email            : "cacquaye@umd.edu"
+  email            : "cacquaye@umd.edu" 
 
   # Academic websites
   academia         : # URL
   googlescholar    : "https://scholar.google.com/citations?user=_7XZJs4AAAAJ&hl=en"
   orcid            : "https://orcid.org/0009-0004-5615-5148"
   github           : "acquayec"
-  # # Repositories and software development
-  # bitbucket        : # Username - Update with your username on the site
-  # codepen          : # Username
-  # dribbble         : # Username
-  # github           : "academicpages"
-  # kaggle           : # Username  
-  # stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace with your Bluesky username if you have one
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -69,7 +61,7 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-# Publication Category - The following the list of publication categories and their headings
+# Publication Category
 publication_category:
   books:
     title: 'Books'
@@ -79,13 +71,12 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
+teaser                   :  # filename of teaser fallback teaser image placed in /images/
+breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
-comments:
+read_more                : "disabled"
+talkmap_link             : falsecomments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
