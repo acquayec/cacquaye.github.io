@@ -14,11 +14,15 @@ title_separator          : "-"
 name                     : &name "Christabel Acquaye"
 description              : &description "PhD Student | Commonsense Reasoning | Fairness & Bias"   # Update this with a general description of your site, this is the default if not overridden by a page
 # url                      : https://cacquaye.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-#                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-# url: https://acquayec.github.io
-# baseurl: "/cacquaye.github.io"
-# repository: "acquayec/cacquaye.github.io"
-# Line 16-18
+# Around line 12-15
+title: "Christabel Acquaye - PhD Student in NLP and AI"
+description: "Christabel Acquaye is a PhD student at University of Maryland studying Natural Language Processing, Commonsense Reasoning, and Fairness in AI. Research on cultural adaptation in LLMs."
+
+# Add these lines if they don't exist (around line 60-65)
+google_site_verification: ""  # We'll add this later
+author:
+  name: "Christabel Acquaye"
+  bio: "PhD Student at University of Maryland | NLP | Commonsense Reasoning | Fairness & Bias in AI"
 url: https://acquayec.github.io
 baseurl: "/cacquaye.github.io"  # Add this!
 repository: "acquayec/cacquaye.github.io"
