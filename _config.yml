@@ -7,43 +7,33 @@
 # server process.
 
 # Basic Site Settings
+# Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Christabel"
+site_theme               : "air"
+title                    : "Christabel Acquaye - PhD Student in NLP and AI"
 title_separator          : "-"
 name                     : &name "Christabel Acquaye"
-description              : &description "PhD Student | Commonsense Reasoning | Fairness & Bias"   # Update this with a general description of your site, this is the default if not overridden by a page
-# url                      : https://cacquaye.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-# Around line 12-15
-title: "Christabel Acquaye - PhD Student in NLP and AI"
-description: "Christabel Acquaye is a PhD student at University of Maryland studying Natural Language Processing, Commonsense Reasoning, and Fairness in AI. Research on cultural adaptation in LLMs."
-google_site_verification: "SVyQ73ySBMoqqBw7qvmtD3rhxDOQ6pXeNXVaGl_7u4c"
-# Add these lines if they don't exist (around line 60-65)
-# google_site_verification: "SVyQ73ySBMoqqBw7qvmtD3rhxDOQ6pXeNXVaGl_7u4c"  # We'll add this later
-author:
-  name: "Christabel Acquaye"
-  bio: "PhD Student at University of Maryland | NLP | Commonsense Reasoning | Fairness & Bias in AI"
-url: https://acquayec.github.io
-baseurl: "/cacquaye.github.io"  # Add this!
-repository: "acquayec/cacquaye.github.io"
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+description              : &description "PhD Student | Commonsense Reasoning | Fairness & Bias in AI"
+url                      : https://acquayec.github.io
+baseurl                  : "/cacquaye.github.io"
+repository               : "acquayec/cacquaye.github.io"
+
+# Site Author
 author:
   # Biographic information
-  avatar           : "profile.png" 
-  name             : "Christabel"
-  pronouns         : # example: "she/her"  
-  bio              : "PhD Student at University of Maryland"
-  location         : "Maryland, United States"
+  avatar           : "profile.png"
+  name             : "Christabel Acquaye"
+  pronouns         : "she/her"
+  bio              : "PhD Student at University of Maryland | NLP | Commonsense Reasoning | Fairness & Bias in AI"
+  location         : "College Park, Maryland"
   uri              : # URL
-  email            : "cacquaye@umd.edu" 
+  email            : "cacquaye@umd.edu"
 
   # Academic websites
   academia         : # URL
   googlescholar    : "https://scholar.google.com/citations?user=_7XZJs4AAAAJ&hl=en"
   orcid            : "https://orcid.org/0009-0004-5615-5148"
-
+  github           : "acquayec"
   # # Repositories and software development
   # bitbucket        : # Username - Update with your username on the site
   # codepen          : # Username
@@ -126,11 +116,6 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 
-# SEO Related
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
 
 # Social Sharing
 twitter:
@@ -154,7 +139,11 @@ analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
+# SEO Related
+google_site_verification : "SVyQ73ySBMoqqBw7qvmtD3rhxDOQ6pXeNXVaGl_7u4c"
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
 
 # Reading Files
 include:
