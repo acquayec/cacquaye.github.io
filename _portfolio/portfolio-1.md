@@ -1,7 +1,18 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "KaraAgroAI Agricultural Datasets"
+excerpt: "Cocoa and Maize datasets for computer vision applications<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Created comprehensive datasets for agricultural AI applications in Ghana.
+
+## KaraAgroAI Cocoa Dataset
+Dataset for cocoa crop detection and yield estimation.
+
+## KaraAgroAI Maize Dataset
+Dataset for maize crop monitoring and analysis.
+
+**Tools:** YOLO, R-CNN, Computer Vision  
+**Achievement:** 92% detection accuracy
+
+[View on Harvard Dataverse](https://doi.org/10.7910/DVN/BBGQSP)
