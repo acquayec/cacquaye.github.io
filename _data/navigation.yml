@@ -17,17 +17,17 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Resources"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+ #  - title: "Blog Posts"
+ #    url: /year-archive/
     
- - title: "Involvements"  # Changed from CV
-    url: /involvements/    # Changed from /cv/
+ # - title: "Involvements"  # Changed from CV
+ #    url: /involvements/    # Changed from /cv/
 
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/
